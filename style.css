@@ -1,0 +1,26 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content:space-between;
+    /* font-family: 'Cabin Condensed', sans-serif; */
+    /* font-family: 'Cabin Condensed', sans-serif; */
+    font-family: 'Cormorant Infant', serif;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+
+  .nav-wrapper a {
+    color: #fff;
+    list-style: none;
+    text-decoration: none;
+}
+.nav-wrapper li{
+    font-size: 25px;
+}
+figure .logo{
+    width: 50px;
+}
