@@ -18,21 +18,57 @@ body{
     text-transform: uppercase;
     font-weight: lighter;
 }
+.links-wrapper > .nav-link a {
+    font-family: "Ubuntu Condensed", sans-serif;
+    color: #cbcbcb;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.links-wrapper > .nav-link a:hover {
+    color: #cea135;
+    letter-spacing: 2px;
+}
 
-  .nav-wrapper a {
+  /* .nav-wrapper ol a {
     color: #fff;
     list-style: none;
     text-decoration: none;
+    border-bottom: 2px solid transparent;
 }
-.nav-wrapper li{
+
+.nav-wrapper ol a:hover {
+    border-bottom: 2px solid white;
+  }
+   */
+  /* .nav-wrapper ol a.active {
+    border-bottom: 2px solid white;
+  } */
+
+/* .nav-wrapper li{
     font-size: 25px;
+} */
+/* .index{
+    border-bottom: 3px solid transparent;
+
 }
+.about{
+    border-bottom: 3px solid transparent;
+
+}
+.portfolio{
+    border-bottom: 3px solid transparent;
+
+}
+.social{
+    border-bottom: 3px solid transparent;
+
+} */
 figure .logo{
     width: 50px;
 }
 .frame{
-    width: 400px;
-    height: 400px;
+    width: 600px;
+    height: 600px;
     position: relative;
     clip-path: path(var(--badge));
 }
@@ -41,10 +77,41 @@ figure .logo{
     clip-path: path(var(--wavy));
     cursor: pointer;
 }
-.frame .me {
-    width: 300px;
+.frame .robot {
+    width: 600px;
 }
 .container{
     display: flex;
     justify-content: end;
+}
+.main-section{
+    display: flex;
+    font-family: 'Cabin Condensed', sans-serif; 
+    /* font-family: 'Cabin Condensed', sans-serif; */
+}
+.statement{
+    padding: 20px 10px 0px;
+}
+.statement h2{
+    font-size: 40px;
+}
+.statement p{
+    font-size: 25px;
+}
+figure img{
+    width: 300px;
+}
+.hobby-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.aboutme-statement{
+    display: flex;
+    justify-content: center;
+
+}
+.aboutme-statement p{
+    font-size: 30px;
 }
