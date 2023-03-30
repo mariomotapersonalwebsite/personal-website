@@ -5,8 +5,9 @@
 }
 
 body{
-    background-color: black;
+    
     color: white;
+    background-color: #35363A;
 }
 
 .header-wrapper {
@@ -18,10 +19,37 @@ body{
     text-transform: uppercase;
     font-weight: lighter;
 }
-.links-wrapper > .nav-link a {
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+}
+  li {
+    text-align: center;
+
+  }
+  li a {
+    display: block;
+    color:white;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  /* Change the link color on hover */
+li a:hover {
+    background-color: #555;
+    color: white;
+  }
+ .links-wrapper .active{
+    color: white;  
+    border-bottom: #cea135 1px solid;
+
+}
+
+.links-wrapper > ul {
     font-family: "Ubuntu Condensed", sans-serif;
     color: #cbcbcb;
-    text-decoration: none;
+    list-style-type: none ;    
     transition: 0.5s;
 }
 .links-wrapper > .nav-link a:hover {
