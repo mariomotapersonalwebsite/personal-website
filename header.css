@@ -1,17 +1,31 @@
-/* Header General */
+/* Header  */
+.header-bar {
+    background-color: cadetblue;
+    padding: 10px 0 10px 0;
+}
 .header-wrapper {
-    display: flex;
-    justify-content:space-between;
+    /* display: flex;
+    justify-content:space-between; */
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
     font-family: 'Cabin Condensed', sans-serif;
     font-family: 'Cabin Condensed', sans-serif;
-     font-family: 'Cormorant Infant', serif; 
+    font-family: 'Cormorant Infant', serif; 
     text-transform: uppercase;
     font-weight: lighter;
 } 
 
+.links-wrapper ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
 /* Logo  */
+
 figure{
-    margin: 10px 10px 10px 40px;
+margin-left: 5%;
 }
 .logo{
     width: 40px;
