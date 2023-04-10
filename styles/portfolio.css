@@ -1,0 +1,50 @@
+.main-wrapper{
+    display: flex;
+    justify-content: center;
+}
+.portfolio-wrapper {
+    padding: 2%;
+    width: 1000px;
+    background-image: url(https://i8.amplience.net/i/flooranddecor/100941533_concept-gray-porcelain-tile_display?fmt=auto&qlt=85);
+    background-size: 200px 200px;
+    box-shadow: 2px 5px 5px 4px black;
+}
+
+.portfolio-wrapper > h1{
+    text-align: center;
+    padding: 2%;
+    margin: 2% 2% 4% 2%;
+    border-bottom: 2px solid #cea135;
+    background-color: #303030;
+    box-shadow: 2px 5px 5px 4px rgb(24, 24, 24);
+
+}
+.boxes-wrapper{
+    border-top: 5px solid transparent;
+}
+.box {
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    margin: 2% 2% 5% 2%;
+    background-color: #303030;
+    box-shadow: 2px 5px 5px 4px rgb(24, 24, 24);
+}
+
+.box > h2{
+    border-bottom: 1px solid #cea135;
+}
+
+
+.box .text-image {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+.text-image p, .box-image{
+    padding: 2%;
+    margin: 2%;
+}
+.box-image {
+    width: 300px;
+}
