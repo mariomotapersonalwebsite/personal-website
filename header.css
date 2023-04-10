@@ -1,0 +1,134 @@
+/* Header General */
+.header-wrapper {
+    display: flex;
+    justify-content:space-between;
+    font-family: 'Cabin Condensed', sans-serif;
+    font-family: 'Cabin Condensed', sans-serif;
+     font-family: 'Cormorant Infant', serif; 
+    text-transform: uppercase;
+    font-weight: lighter;
+} 
+
+/* Logo  */
+figure{
+    margin: 10px 10px 10px 40px;
+}
+.logo{
+    width: 40px;
+    -webkit-animation:spin 1s linear 1;
+    -moz-animation:spin 1s linear 1;
+    animation:spin 1s linear 1;
+}
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+/* Nav */
+
+ul {
+    list-style-type: none;
+    margin: 0 20px 0 0;
+    padding: 0;
+}
+
+li {
+    text-align: center;
+
+}
+li a {
+    display:block;
+    color:white;
+    text-decoration: none;
+}
+
+/* 3D for links */
+  
+.links-wrapper ul li{
+    position: relative;
+    border: none;
+    padding: 5px 5px;
+    outline: none;
+    margin-bottom: 10px;
+}
+
+.links-wrapper ul li:hover {
+    position: relative;
+    border: none;
+    padding: 5px 5px;
+    box-shadow: -6px 6px 0 hsl(0, 0%, 0%) ;
+    outline: none;
+    margin-bottom: 10px;
+    background-color: #7b7575;
+}
+.links-wrapper ul li:active {
+    top: 3px;
+    left: -3px;
+    box-shadow: -3px 3px 0 hsl(0, 0%, 0%) ;
+  }
+
+  .links-wrapper ul li:hover {
+    background-color: #555;
+}
+
+/* Change link color on hover */
+
+li a:hover {
+    background-color: #555;
+    color: white;
+  }
+ .links-wrapper .active{
+    color: white;  
+    border-bottom: #cea135 1px solid;
+}
+
+.links-wrapper > ul {
+    font-family: "Ubuntu Condensed", sans-serif;
+    color: #cbcbcb;
+    list-style-type: none ;    
+    transition: 0.5s;
+}
+.links-wrapper > .nav-link a:hover {
+    color: #cea135;
+    letter-spacing: 2px;
+}
+
+/* Drop Down For Contact Link */
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    z-index: 10;
+}
+
+.dropdown__hover {
+    display: inline-block;
+    padding: 10px;
+    color:white;
+    cursor: pointer;
+
+}
+
+.dropdown__menu {
+    position:absolute;
+    display: none;
+    top: 100%;
+    right: 0;
+    background: rgb(29, 29, 66) ;
+
+    box-shadow: 0 3px 2px rgba(0, 0, 0, 0.3) ;
+}
+.dropdown:hover .dropdown__menu {
+    display: block;
+}
+
+.dropdown__menu a {
+    display: block;
+    border: none;
+    padding: 10px;
+    text-decoration: none;
+}
+.dropdown__menu a:hover {
+    background-color:#D2042D;
+}
+
