@@ -1,16 +1,51 @@
 /* About Me Css */ 
 
-.hobby-wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-}
-.aboutme-statement {
+.main-wrapper{
     display: flex;
     justify-content: center;
+}
+.about-wrapper {
+    width: 1000px;
+}
+
+.about-wrapper h2{
+    text-align: center;
+    padding: 6%;
+}
+.hobby-wrapper{
+    border-top: 10px solid white;
+}
+.hobby {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-bottom: 10px solid white;
+    padding-top: 3%;
 
 }
-.aboutme-statement p {
-    font-size: 30px;
+
+.clip {
+    width: 100%;
+    object-fit: cover;
+
+}
+.clip-image-1 {
+    height: 80%;
+    clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+}
+.clip-image-2{
+    height: 70%;
+    clip-path: polygon(20% 0%, 0% 20%, 30% 50%, 0% 80%, 20% 100%, 50% 70%, 80% 100%, 100% 80%, 70% 50%, 100% 20%, 80% 0%, 50% 30%);
+}
+.clip-image-3{
+    height: 60%;
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+}
+.hobby .text-wrapper {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    padding: 0% 10% 10% 10%;
+    margin-top: -4px;
+
 }

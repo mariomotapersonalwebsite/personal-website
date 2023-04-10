@@ -1,6 +1,7 @@
 /* Header  */
+
 .header-bar {
-    background-color: cadetblue;
+    background-color: rgb(38, 37, 37);
     padding: 10px 0 10px 0;
 }
 .header-wrapper {
