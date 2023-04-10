@@ -1,98 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 :root {
     --badge:"M180.687 32.8152C189.891 12.8956 210.834 0 234 0C257.166 0 278.109 12.8956 287.313 32.8152C305.916 19.883 330.954 18.5478 351 29.413C371.046 40.2782 382.317 61.2588 379.685 82.843C402.675 80.3736 425.08 90.9462 436.663 109.75C448.246 128.554 446.803 152.04 432.997 169.491C454.252 178.124 468 197.769 468 219.5C468 241.23 454.252 260.876 432.997 269.509C446.784 286.96 448.227 310.428 436.663 329.25C425.1 348.072 402.695 358.626 379.685 356.157C382.337 377.741 371.066 398.722 351 409.587C330.954 420.452 305.916 419.117 287.313 406.166C278.109 426.104 257.166 439 234 439C210.834 439 189.891 426.104 180.687 406.185C162.084 419.117 137.046 420.452 117 409.587C96.954 398.722 85.683 377.741 88.3155 356.157C65.3055 358.626 42.939 348.054 31.356 329.25C19.773 310.446 21.1965 286.96 35.0025 269.509C13.7475 260.876 0 241.23 0 219.5C0 197.769 13.7475 178.124 34.983 169.491C21.1965 152.04 19.773 128.554 31.356 109.75C42.939 90.9462 65.3055 80.3736 88.3155 82.843C85.683 61.2588 96.954 40.2782 117 29.413C137.046 18.5478 162.084 19.883 180.687 32.8152Z";
     --wavy:"M174.981 7.85C189.864 -2.61667 210.114 -2.61667 225.014 7.85C260.714 32.95 253.047 30.55 297.264 30.4167C315.731 30.35 332.114 41.7833 337.747 58.6833C351.297 99.1333 346.531 92.8833 382.397 117.75C397.381 128.133 403.647 146.633 397.864 163.483C384.097 203.767 384.031 196.033 397.864 236.5C403.647 253.35 397.381 271.85 382.397 282.233C346.547 307.1 351.297 300.85 337.747 341.3C332.114 358.2 315.731 369.633 297.264 369.583C253.031 369.433 260.714 367.033 225.014 392.133C210.114 402.617 189.864 402.617 174.981 392.133C139.264 367.05 146.947 369.417 102.731 369.583C84.2639 369.633 67.8805 358.2 62.2472 341.3C48.7139 300.8 53.3639 307.067 17.5805 282.233C2.61387 271.85 -3.65279 253.35 2.13054 236.5C15.9139 196.2 15.9639 203.95 2.13054 163.483C-3.65279 146.633 2.61387 128.133 17.5805 117.75C53.3472 92.9333 48.6972 99.2167 62.2472 58.6833C67.8805 41.7833 84.2639 30.35 102.731 30.4167C146.831 30.55 139.064 33.1 174.981 7.85Z";
 
 }
 
-body{
-    
+body {
     color: white;
     background-color: #35363A;
 }
 
-.header-wrapper {
-    display: flex;
-    justify-content:space-between;
-    /* font-family: 'Cabin Condensed', sans-serif; */
-    /* font-family: 'Cabin Condensed', sans-serif; */
-    font-family: 'Cormorant Infant', serif;
-    text-transform: uppercase;
-    font-weight: lighter;
+/* Main Section */
+.main-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-family: 'Cabin Condensed', sans-serif; 
+    
 }
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 200px;
+.statement{
+    margin-top: 5%;
+    margin-left: 5%;
+    line-height: 1.5;
 }
-  li {
-    text-align: center;
-
-  }
-  li a {
-    display: block;
-    color:white;
-    padding: 8px 16px;
-    text-decoration: none;
-  }
-  /* Change the link color on hover */
-li a:hover {
-    background-color: #555;
-    color: white;
-  }
- .links-wrapper .active{
-    color: white;  
-    border-bottom: #cea135 1px solid;
-
+.statement h2{
+    margin-top: 0;
+    font-size: 40px;
 }
-
-.links-wrapper > ul {
-    font-family: "Ubuntu Condensed", sans-serif;
-    color: #cbcbcb;
-    list-style-type: none ;    
-    transition: 0.5s;
-}
-.links-wrapper > .nav-link a:hover {
-    color: #cea135;
-    letter-spacing: 2px;
-}
-
-  /* .nav-wrapper ol a {
-    color: #fff;
-    list-style: none;
-    text-decoration: none;
-    border-bottom: 2px solid transparent;
-}
-
-.nav-wrapper ol a:hover {
-    border-bottom: 2px solid white;
-  }
-   */
-  /* .nav-wrapper ol a.active {
-    border-bottom: 2px solid white;
-  } */
-
-/* .nav-wrapper li{
+.statement p{
     font-size: 25px;
-} */
-/* .index{
-    border-bottom: 3px solid transparent;
-
+    /* width: ; */
 }
-.about{
-    border-bottom: 3px solid transparent;
 
-}
-.portfolio{
-    border-bottom: 3px solid transparent;
-
-}
-.social{
-    border-bottom: 3px solid transparent;
-
-} */
-figure .logo{
-    width: 50px;
+.container{
+    margin-top: 2%;
+    margin-left: 20%;
 }
 .frame{
     width: 600px;
@@ -100,35 +44,19 @@ figure .logo{
     position: relative;
     clip-path: path(var(--badge));
 }
+
 .frame:hover,
 .frame:focus{
     clip-path: path(var(--wavy));
     cursor: pointer;
 }
+
 .frame .robot {
-    width: 600px;
+    width: 500px;
 }
-.container{
-    display: flex;
-    justify-content: end;
-}
-.main-section{
-    display: flex;
-    font-family: 'Cabin Condensed', sans-serif; 
-    /* font-family: 'Cabin Condensed', sans-serif; */
-}
-.statement{
-    padding: 20px 10px 0px;
-}
-.statement h2{
-    font-size: 40px;
-}
-.statement p{
-    font-size: 25px;
-}
-figure img{
-    width: 300px;
-}
+
+/* About Me Css */ 
+
 .hobby-wrapper{
     display: flex;
     flex-direction: column;
@@ -140,6 +68,6 @@ figure img{
     justify-content: center;
 
 }
-.aboutme-statement p{
+.aboutme-statement p {
     font-size: 30px;
 }
