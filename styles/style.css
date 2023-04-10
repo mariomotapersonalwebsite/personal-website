@@ -13,7 +13,7 @@
     
 }
 .statement {
-    margin-top: 5%;
+    margin-top: 15%;
     margin-left: 5%;
     line-height: 1.5;
 }
@@ -23,7 +23,6 @@
 }
 .statement p {
     font-size: 25px;
-    /* width: ; */
 }
 
 .container {

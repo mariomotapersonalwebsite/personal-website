@@ -5,21 +5,33 @@
     justify-content: center;
 }
 .about-wrapper {
+    padding: 2%;
     width: 1000px;
+    background-image: url(https://cdn.shopify.com/s/files/1/2221/7525/products/Tilezz.com_Zellige2of3_1000px_05_26_22-05_1296x.jpg?v=1653920228);
+    background-size: 600px 600px;
+    box-shadow: 2px 5px 5px 4px black;
 }
 
-.about-wrapper h2{
+.about-wrapper > h2{
     text-align: center;
-    padding: 6%;
+    padding: 2%;
+    margin: 2%;
+    background-color: #80691f;
+    box-shadow: 2px 5px 5px 4px rgb(27, 27, 27);
+
 }
 .hobby-wrapper{
-    border-top: 10px solid white;
+    border-top: 10px solid transparent;
 }
 .hobby {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    border-bottom: 10px solid white;
-    padding-top: 3%;
+    border-bottom: 5px solid transparent;
+    padding: 2%;
+    margin: 2%;
+    background-color: #80691f;
+    box-shadow: 2px 5px 5px 4px rgb(27, 27, 27);
+
 
 }
 

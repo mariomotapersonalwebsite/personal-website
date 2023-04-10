@@ -30,9 +30,9 @@ margin-left: 5%;
 }
 .logo{
     width: 40px;
-    -webkit-animation:spin 1s linear 1;
-    -moz-animation:spin 1s linear 1;
-    animation:spin 1s linear 1;
+    -webkit-animation:spin 0.4s linear 1;
+    -moz-animation:spin 0.4s linear 1;
+    animation:spin 0.4s linear 1;
 }
 
 @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
