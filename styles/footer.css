@@ -1,0 +1,43 @@
+/* Footer Styles */
+footer {
+    background-color: #11122b;
+    color: #cbcbcb;
+    /* font-family: "Ubuntu Condensed", sans-serif; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2%;
+}
+footer > .logo-footer img {
+    width: 80px;
+    /* filter: brightness(50%); */
+    opacity: 0.5;
+}
+
+
+footer > .links-wrapper {
+    margin: 1%;
+    width: 400px;
+}
+
+footer > .social-media-icons-wrapper {
+    margin: 1%;
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+
+}
+footer > .social-media-icons-wrapper a {
+    font-size: 1.8em;
+    color: #cbcbcb;
+    transition: 0.5s;
+}
+footer > .social-media-icons-wrapper a:hover {
+    color: #cea135
+}
+footer > .copyright-wrapper {
+    margin:1%;
+    font-size: 0.7em;
+    color: #858585;
+}
